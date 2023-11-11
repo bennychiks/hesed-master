@@ -240,6 +240,7 @@ p.lead {
 
 @media screen and (max-width:600px) {
   p.lead {
+    FONT-WEIGHT: 100;
     font-size: 2.2rem;
   }
 
@@ -1813,6 +1814,7 @@ input::-moz-focus-inner {
   position: absolute;
   left: 11rem;
   top: 50%;
+  scale: 150%;
 }
 
 .header-logo::before {
@@ -3054,6 +3056,10 @@ html.no-csstransitions .hero-content {
 
 .social-list__icon--twitter::before {
   background-image: url(../images/icons/social/icon-twitter.svg);
+}
+
+.social-list__icon--youtube::before {
+  background-image: url(../images/icons/social/icon-youtube.svg);
 }
 
 .social-list__icon--instagram::before {
