@@ -1590,7 +1590,7 @@ input::-moz-focus-inner {
 
 .subhead {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   font-weight: 700;
   line-height: 1.5;
   text-transform: uppercase;
@@ -2065,6 +2065,7 @@ input::-moz-focus-inner {
   overflow: hidden;
   background-color: transparent;
   position: relative;
+  background-size:cover;
 }
 
 .s-hero::before {
@@ -2117,7 +2118,7 @@ input::-moz-focus-inner {
 
 .hero-content h1 {
   font-weight: 700;
-  font-size: 7.6rem;
+  font-size: 6.6rem;
   line-height: 1.263;
   letter-spacing: 0;
   color: #ffffff;
