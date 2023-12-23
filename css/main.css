@@ -3185,8 +3185,8 @@ html.no-csstransitions .hero-content {
 }
 
 .footer-logo img {
-  width: 138px;
-  height: 36px;
+  width: 200px;
+  height: 50px;
 }
 
 /* -------------------------------------------------------------------
@@ -3431,6 +3431,7 @@ html.no-csstransitions .hero-content {
  * ----------------------------------------------- */
 .church-staff {
   margin-top: 6rem;
+  align-items: center;
 }
 
 .church-staff__item {
@@ -3446,9 +3447,10 @@ html.no-csstransitions .hero-content {
   -webkit-flex-flow: row nowrap;
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
-  -webkit-align-items: center;
+/*  -webkit-align-items: center;*/
   -ms-flex-align: center;
-  align-items: center;
+/*  align-items: center;*/
+  flex-direction: column;
 }
 
 .church-staff__name {
@@ -3476,6 +3478,10 @@ html.no-csstransitions .hero-content {
   width: 8rem;
   height: 8rem;
   border-radius: 50%;
+}
+
+.church-staff__picture2 img {
+  width: 80%;
 }
 
 /* ------------------------------------------------------------------- 
