@@ -1,5 +1,5 @@
 /* =================================================================== 
- *  Hesed Main Stylesheet
+ *  Main Stylesheet
  *  Template Ver. 1.0.0
  *  06-26-2019
  *  ------------------------------------------------------------------
@@ -186,6 +186,7 @@ h1, .h1 {
 @media screen and (max-width:600px) {
   h1, .h1 {
     font-size: 3.3rem;
+    padding-top: 256px!important;
   }
 
 }
@@ -1622,12 +1623,13 @@ input::-moz-focus-inner {
 }
 
 .events-list__item {
-  margin-bottom: 4rem;
+  /*padding-top: 4rem;*/
 }
 
 .events-list__item-title a {
   color: #000000;
   border-bottom: 1px solid transparent;
+  padding-top: 4rem;
 }
 
 .events-list__item-title a:hover,
@@ -2058,10 +2060,20 @@ input::-moz-focus-inner {
  * # hero
  *
  * ------------------------------------------------------------------- */
-.s-hero {
+.s-hero2 {
   width: 100%;
   height: 100vh;
   min-height: 82rem;
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+  background-size:cover;
+}
+
+.s-hero {
+  width: 100%;
+  height: 100vh;
+  min-height: 62rem;
   overflow: hidden;
   background-color: transparent;
   position: relative;
@@ -2105,7 +2117,7 @@ input::-moz-focus-inner {
   height: 100%;
   max-width: 1400px;
   padding-top: 20vh;
-  padding-bottom: 18vh;
+  padding-bottom: 8vh;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
@@ -2133,7 +2145,7 @@ input::-moz-focus-inner {
   content: "";
   height: 2px;
   width: 10rem;
-  background-color: #7d1c24;
+  background-color: #ffffff;
   position: absolute;
   top: 0;
   left: .8rem;
@@ -2250,6 +2262,7 @@ input::-moz-focus-inner {
   color: #ffffff;
   padding-left: 9rem;
   position: relative;
+  
 }
 
 .hero-scroll .scroll-link:hover,
@@ -2490,7 +2503,7 @@ html.no-csstransitions .hero-content {
   }
 
   .hero-content h1 {
-    font-size: 4.4rem;
+    font-size: 3.4rem;
   }
 
   .hero-left-bar,
@@ -2521,7 +2534,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 19.6rem;
+  padding-top: 9.8rem;
   padding-bottom: 19.6rem;
   background-color: #3b0d11;
   color: rgba(255, 255, 255, 0.8);
@@ -2735,6 +2748,10 @@ html.no-csstransitions .hero-content {
 .s-events .subhead {
   color: #000000;
 }
+.s-events .subhead-link:hover {
+  color: #000000;
+  border-bottom: 1px solid #3b0d11;
+}
 
 .events-header {
   margin-bottom: 2.4rem;
@@ -2826,19 +2843,21 @@ html.no-csstransitions .hero-content {
   padding-bottom: 4.8rem;
   margin-top: 1.6rem;
   margin-bottom: 3.2rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #000000;
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.1);*/
 }
 
 .series-content__buttons .btn {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #000000;
+  color: #000000;
 }
 
 .series-content__buttons .btn:hover,
 .series-content__buttons .btn:focus {
-  background-color: #ffffff;
+  background-color: #000000;
   border-color: #ffffff;
-  color: #000000;
+  color: #ffffff;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3177,7 +3196,7 @@ html.no-csstransitions .hero-content {
  * ## footer logo 
  * ------------------------------------------------------------------- */
 .footer-logo {
-  margin-bottom: 2.8rem;
+  margin-bottom: 1.4rem;
 }
 
 .footer-logo a {
@@ -3214,7 +3233,7 @@ html.no-csstransitions .hero-content {
  * ## copyright 
  * ------------------------------------------------------------------- */
 .ss-copyright {
-  margin-top: 4.8rem;
+  /*margin-top: 4.8rem;*/
   padding-right: 80px;
   color: rgba(255, 255, 255, 0.3);
 }
