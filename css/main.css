@@ -1621,10 +1621,10 @@ input::-moz-focus-inner {
 .events-list .column:nth-child(2n+2) {
   padding-left: 2.4vw;
 }
-
+/*
 .events-list__item {
-  /*padding-top: 4rem;*/
-}
+  padding-top: 4rem;
+}*/
 
 .events-list__item-title a {
   color: #000000;
